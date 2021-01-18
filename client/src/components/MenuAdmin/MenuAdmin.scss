@@ -1,0 +1,29 @@
+@import "../../scss/index.scss";
+
+.ui.container.menu-admin {
+    display: flex;
+    justify-content: center;
+    border : 1px solid #bee5d3;
+
+    .container-panel {
+        margin-top: 15px;
+    }
+
+}
+.ui.container{
+    .container-link {
+        margin-top: 0px;
+    }
+}
+
+.ui.container {
+    .link-panel {
+        &:hover {
+            cursor: pointer;
+            color : $action;
+            text-decoration: underline;
+        }
+    }
+}
+
+
